@@ -65,12 +65,7 @@ header{
     font-size: 14px;
 }
 
-.testo-banner{
-
-}
-
 #section2{
-    background-color: rgb(158, 133, 182);
     margin-top: 20px;
     margin-bottom: 20px;
 }
@@ -116,11 +111,20 @@ footer .container{
 
 .modulo{
     padding: 20px;
-    background-color: rgb(238, 179, 147);
     border-radius: 5px;
-    color: white;
+    color: gray;
 }
 
+.Leadership h2{
+    font-family: sans-serif;
+    font-size: 25px;
+    color: black;
+}
+
+.Leadership{
+    padding-left: 0px;
+    padding-top: 10px;
+}
 
 /* debug */
 

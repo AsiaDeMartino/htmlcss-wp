@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 img{
@@ -16,18 +16,19 @@ header{
     position: sticky;
     top: 0px;
     z-index: 100;
+    background-color: white;
 }
 
 .container{
     max-width: 1024px;
     min-height: 100px;
     margin: 0 auto;
+    position: relative;
 } 
 
 #logo{
     width: 166px;
     height: 70px;
-
 }
 
 .menu ul li{
@@ -43,8 +44,29 @@ header{
 }
 
 #section1{
-    background-color: rgb(72, 171, 171);
     margin-top: 20px;
+}
+
+.banner1{
+    height: 450px;
+    width: 1176px;
+    object-fit: cover;
+    border-radius: 10px;
+    filter: brightness(80%);
+}
+
+.testo-banner{
+    position: absolute;
+    left: 50px;
+    top: 300px;
+    max-height: 50px;
+    width: 500px;
+    color: white;
+    font-size: 14px;
+}
+
+.testo-banner{
+
 }
 
 #section2{

@@ -11,31 +11,32 @@ img{
 
 header{
     height: 150px;
-    padding-left: 20px;
-    padding-top: 20px;
+    padding-left: 0px;
+    padding-top: 0px;
+    position: sticky;
+    top: 0px;
+    z-index: 100;
 }
 
 .container{
     max-width: 1024px;
     min-height: 100px;
     margin: 0 auto;
-}
+} 
 
-.container-header{
-    max-width: 100%;
-}
+#logo{
+    width: 166px;
+    height: 70px;
 
-.menu{
-    float: right;
 }
 
 .menu ul li{
     display: inline-block;
-    padding: 0 20px;
-    line-height: 50px;
+    padding: 30px 20px 0px 0px;
     max-width: 200px;
     color: gray;
-}
+    white-space: nowrap;
+} 
 
 .menu ul li:hover{
     color: lightskyblue;
@@ -96,12 +97,6 @@ footer .container{
     background-color: rgb(238, 179, 147);
     border-radius: 5px;
     color: white;
-}
-
-#logo{
-    width: 166px;
-    height: 70px;
-    float: left;
 }
 
 
